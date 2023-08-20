@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.input-field {
+  flex: 1;
+  background-color: #f5f5f6;
+  padding: 20px;
+  border: none;
+  color: #c0c1c9;
+  font-size: 17px;
+  font-weight: 300;
+  border-radius: 10px;
+}
+
+.submit-button {
+  background-color: #cb2b28;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

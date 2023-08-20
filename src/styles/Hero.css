@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+.hero {
+  width: 100%;
+  text-align: center;
+}
+
+.hero img {
+  width: 80%;
+}
+
+.hero h2 {
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.hero-span {
+  color: #cb2b28;
+  font-weight: 700;
+}
+
+.progress-line {
+  width: 90vw;
+  height: 10px;
+  margin: 50px auto 90px auto;
+  background-color: #cb2b28;
+}
+
+.progress-line-flex {
+  position: relative;
+  top: -10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.progress-level {
+  width: 30%;
+}
+
+.point {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  padding-top: 4px;
+  margin: 0 auto;
+  background-color: #cb2b28;
+  color: #9c9c9c;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.input-field {
+  flex: 1;
+  background-color: #f5f5f6;
+  padding: 20px;
+  border: none;
+  color: #c0c1c9;
+  font-size: 17px;
+  font-weight: 300;
+  border-radius: 10px;
+}
+
+.submit-button {
+  background-color: #cb2b28;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
