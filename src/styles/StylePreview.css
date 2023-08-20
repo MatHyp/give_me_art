@@ -1,0 +1,16 @@
+.style-preview {
+  width: 92vw;
+  display: flex;
+  text-align: center;
+  background-color: #c0c1c9;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.left-box {
+  width: 50%;
+}
+
+.right-box {
+  width: 50%;
+}

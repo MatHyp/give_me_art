@@ -8,8 +8,8 @@ function TextField() {
         class="input-field"
         placeholder="What do you want to create?"
       />
-      <button class="submit-button">
-        <span class="icon">
+      <button className="submit-button">
+        <span className="icon">
           <img src={require("../assets/icon-pen.png")} />
         </span>
       </button>
